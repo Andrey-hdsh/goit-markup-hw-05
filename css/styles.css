@@ -321,7 +321,7 @@ background: #4D5AE5;
 transform: translateY(100%);
 transition: transform;
 transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-link{
@@ -331,7 +331,8 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-link-text:hover , .card-link-text:focus{
+.card-link:hover .card-link-text,
+.card-link:focus .card-link-text{
 box-shadow:  0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 transform: translateY(0%);
 }
